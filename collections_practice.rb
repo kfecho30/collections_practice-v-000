@@ -36,4 +36,5 @@ def find_a(array)
       found << item
     end
   end
+  found
 end
