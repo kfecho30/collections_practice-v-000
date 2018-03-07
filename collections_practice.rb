@@ -49,6 +49,6 @@ end
 
 def add_s(array)
   for a in array
-    a << "s" if array.index(a) != 2
+    a << "s" if array.index(a) != 1
   end
 end
