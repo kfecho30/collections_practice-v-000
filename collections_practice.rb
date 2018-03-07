@@ -23,6 +23,6 @@ end
 def kesha_maker(array)
   array.each do |str|
     x = str.split
-    x
+    x[2] = "$"
   end
 end
