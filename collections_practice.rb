@@ -46,3 +46,10 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  i=0
+  for a in array
+    a << s if a != 2
+  end
+end
