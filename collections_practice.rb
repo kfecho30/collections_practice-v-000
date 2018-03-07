@@ -13,8 +13,16 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  #CODE HERE
 end
 
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array.collect do |str|
+    x = str.split()
+    x[2] = "$"
+    x.join("")
+  end
