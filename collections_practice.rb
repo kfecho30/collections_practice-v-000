@@ -24,5 +24,7 @@ def kesha_maker(array)
   kesha = []
   array.collect do |str|
     str[2] = "$"
+    kesha << str
   end
+  kesha
 end
